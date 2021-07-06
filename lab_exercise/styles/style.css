@@ -1,0 +1,46 @@
+body{
+            color: black;
+            padding: 1em;
+            background-color: #b5ffc8;
+         }
+         p{
+            font-family: system-ui;
+         }
+         .highlight{
+            border-width: 3px;
+            border-style: solid;
+            border-color: gray;
+
+         }
+         #top-level{
+            width: auto;
+            size: 1em;
+            height: 20vh;
+            padding: 1em;
+         }
+         a:click{
+            color:#ff0000;
+            display: block;
+             text-align: center;
+         }
+         a{
+            text-decoration: none;
+         }
+         .highlight:hover{
+            color: #00ff00;
+         }
+         img{
+            size: 20px;
+            width: 20vw;
+            height: 10em;
+            border: 2px solid#000000;
+            margin-left: 20em;
+            text-align: center;
+            margin-right: 50em;
+            
+         }
+         /*CSS specificity*/
+         p{color: black;}
+         #intro{color: red;}
+         .highlight{color: green;}
+         p{color: black;}

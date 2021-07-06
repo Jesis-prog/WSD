@@ -1,0 +1,42 @@
+body{
+   font-family: arvo;
+   color: #200a6f;
+   background-color: #b5ffc8;
+}
+h1{
+   font-family: sans-serif;
+   font-style: italic;  
+   font-size: 2em;
+   font-weight: 500px;
+   color: #2f00ff;
+}
+header{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   font-family: 'Syncopate', sans-serif;
+   border-bottom: 0.1vw solid #f7b7b7;
+
+}
+#logo{
+   height: 8vh;
+}
+#nav-labs ul{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   padding: 1vh 1vw;
+   border:0.1vw solid #f7b7b7;
+   border-radius: 0.5vw;
+   list-style-type:none;
+}
+footer{
+   margin-top: 10vh;
+   border-top: 0.1vw solid #f7b7b7;
+}
+.panel{
+   border:0.1vw solid #00ff00;
+   border-radius: 0.5vw;
+   padding: 1vw;
+   margin: 1vh 0;
+}
